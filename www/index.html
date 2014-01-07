@@ -18,7 +18,7 @@
         	function createMessage(){		
         		//phoneGap and jQueryMobile do not support toast messages directly
         		//so we can add this using toast.js
-               	new Toast({content: 'An example message.', duration: 1000}); 	
+               	new Toast({content: 'hello world.', duration: 1000}); 	
         	}
         	
         	
@@ -27,7 +27,7 @@
         		//phonegap supports native dialog boxes.
         		//here's a simple example
         		navigator.notification.confirm(
-            		'What do you think of this dialog?',  // message
+            		'What do you think of life in the new world?',  // message
             		dialogDismissed,         // callback
             		'An example dialog!',            // title
             		['Awesome!', 'Sucks']                  // buttons
@@ -55,7 +55,7 @@
         		window.plugin.notification.local.add({ 
         			id: 		1,
         			title: 		"Hey you",
-        			message: 	"This is an example notification",
+        			message: 	"long time now see hows life treating you",
         			date: 		notificationTime, 
         			badge: 		notification_count++
         		});
